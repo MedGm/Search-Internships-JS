@@ -1,0 +1,23 @@
+{
+  "name": "search-internship-js",
+  "version": "1.0.0",
+  "description": "JavaScript tool for automating internship application emails",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "start:bulk": "node main-bulk.js",
+    "test": "node test.js",
+    "test:bulk": "node test-bulk.js"
+  },
+  "keywords": [
+    "internship",
+    "automation",
+    "email"
+  ],
+  "author": "EL GORRIM MOHAMED",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "nodemailer": "^6.9.1"
+  }
+}
